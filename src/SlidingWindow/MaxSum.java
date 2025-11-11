@@ -1,5 +1,7 @@
 package SlidingWindow;
 
+// Maximum sum subarray of size k
+
 public class MaxSum {
     public int solve(int[] nums, int k) {
         int i = 0, j = 0, sum = 0, maxSum = Integer.MIN_VALUE;
